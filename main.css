@@ -1,0 +1,55 @@
+body {
+	background-color: black;
+	margin: 0;
+}
+#header {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	background-image: url('images/utensils.jpg');
+	background-repeat: no-repeat;
+	min-width: 900px;
+	height: 290px;
+}
+#title {
+	position: relative;
+	top:20px;
+	left:400px;
+	font-size: 40px;
+	width: 300px;
+}
+#input {
+	background-color: gray;
+	border-radius: 50px;
+	border: dashed;
+	border-color: white;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	top: 320px;
+	width: 275px;
+	left: 75px;
+}
+#box {
+	width: 200px;
+}
+#list-items {
+	position: relative;
+	top: 220px;
+	left: 370px;
+	background-image: url('images/notebook-paper.png');
+	background-repeat: no-repeat;
+	height: 500px;
+}
+#items {
+	position: relative;
+	top: 70px;
+	left:40px;
+	width: 250px;
+	font-size: 20px;
+	list-style: none;
+}
+.strike {
+	text-decoration: line-through;
+}
