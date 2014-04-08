@@ -11,5 +11,8 @@ $(document).ready(function() {
 	$(document).on('click', 'img', function() {
 		$(this).parent().remove();
 	});
+	$('li').dblclick(function() {
+		$(this).parent().css("text-decoration", "line-through");
+	}
 
 });
