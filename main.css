@@ -18,7 +18,7 @@ body {
 	font-size: 40px;
 	width: 300px;
 }
-#input {
+#valueArea {
 	background-color: gray;
 	border-radius: 50px;
 	border: dashed;
@@ -52,6 +52,11 @@ body {
 }
 .addItem {
 	display: inline;
+}
+.addItem img {
+	display: inline-block;
+	position: relative;
+	top: 3px;
 }
 .trash {
 	background-image: url('images/trash.png');
