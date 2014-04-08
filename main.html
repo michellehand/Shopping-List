@@ -14,7 +14,7 @@
 		<div id="input">
 			<div> Add an item to your list</div>
 			<form>
-				<input id="box" type="text" name="listitem">
+				<input id="itemEntry" type="text" name="listitem">
 				<button id="button" type="submit" 
 				 value="submit">add</button>
 				<button type="reset" value="reset"> start fresh</button>
@@ -23,7 +23,8 @@
 		</div>
 		<div id="list-items">
 			<ul id="items">
-				<li>Orange</li>
+				<li class="addItem">Orange</li>
+				<div class="trash"></div>
 				<li>Apple</li>
 				<li class="strike">Bread</li>
 				<li class="strike">Milk</li>
