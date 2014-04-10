@@ -20,8 +20,8 @@ body {
 }
 #valueArea {
 	background-color: gray;
-	border-radius: 50px;
-	border: dashed;
+	border-radius: 40px;
+	border: solid;
 	border-color: white;
 	color: black;
 	text-align: center;
@@ -34,9 +34,20 @@ body {
 #itemEntry {
 	width: 200px;
 }
+#help {
+	display: none;
+	position: relative;
+	top: 340px;
+	left: 110px;
+	color: white;
+	width: 200px;
+	padding: 10px;
+	border-color: white;
+	border: solid;
+}
 #list-items {
 	position: relative;
-	top: 220px;
+	top: 97px;
 	left: 370px;
 	background-image: url('images/notebook-paper.png');
 	background-repeat: no-repeat;

@@ -20,4 +20,11 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('ul').empty(); 
 	});
+	//hover help
+	$('#valueArea').hover(function() {
+		$(this).find('#help').fadeIn(250);
+		},
+		function() {
+		$(this).find('#help').fadeOut(250);
+		});
 });
