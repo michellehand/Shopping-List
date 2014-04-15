@@ -22,9 +22,10 @@ $(document).ready(function() {
 	});
 	//hover help
 	$('#valueArea').hover(function() {
-		$(this).find('#help').fadeIn(250);
+			$('#help').fadeIn(250);
 		},
 		function() {
-		$(this).find('#help').fadeOut(250);
-		});
+			$('#help').fadeOut(250);
+		}
+	);
 });

@@ -1,6 +1,7 @@
 body {
 	background-color: black;
 	margin: 0;
+	font-family: Verdana;
 }
 #header {
 	position: absolute;
@@ -35,29 +36,32 @@ body {
 	width: 200px;
 }
 #help {
-	display: none;
-	position: relative;
-	top: 340px;
+	position: absolute;
+	top: 410px;
 	left: 110px;
 	color: white;
 	width: 200px;
 	padding: 10px;
 	border-color: white;
 	border: solid;
+	border-radius: 20px;
+	font-family: Verdana;
+	font-size: 12px;
 }
 #list-items {
-	position: relative;
-	top: 97px;
+	position: absolute;
+	top: 310px;
 	left: 370px;
 	background-image: url('images/notebook-paper.png');
 	background-repeat: no-repeat;
 	height: 500px;
+	width: 500px;
 }
 #items {
 	position: relative;
 	top: 70px;
 	left:40px;
-	width: 100px;
+	width: 300px;
 	font-size: 20px;
 	list-style: none;
 }
